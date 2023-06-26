@@ -1,0 +1,20 @@
+.footer {
+    background-color:black;
+    color: #fff;
+}
+.footer .icons{
+    font-size: 1.4rem;
+}
+.footer span , a{
+    display: block;
+    color: #565151;
+}
+.footer .sub{
+    border: 1px solid #565151;
+}
+/* ==============media Quiray ===========*/
+@media (max-width:756px){
+    .footer .row div:nth-child(1){
+        padding:10px 12px
+    }
+}

@@ -1,0 +1,31 @@
+.productsCard .card {
+  overflow: hidden;
+  position: relative;
+}
+.productsCard .card .img-fluid {
+  width: 100%;
+  height: 420px;
+}
+.productsCard .card .img-fluid:hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+.productsCard .card .price {
+  transition: 0.3s ease;
+}
+.productsCard .card .price:hover {
+  transform: translateX(90px);
+  cursor: pointer;
+}
+.productsCard .card .add-to-card {
+  z-index: -1;
+}
+
+.productsCard .card span:nth-child(1) {
+  text-decoration: line-through;
+  color: #8b8686;
+}
+.productsCard .card .card-text {
+  text-align: start;
+  padding-left: 0.5rem;
+}

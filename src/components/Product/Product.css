@@ -1,0 +1,36 @@
+.Product .row span:nth-child(1) {
+  color: #8b8686;
+  text-decoration: line-through;
+}
+.Product .row .fluid{
+    width: 75%;
+    height: 550px;
+}
+.Product .row .right{
+   padding-top: 10rem;
+}
+.Product .row .desc {
+  color: #8b8686;
+}
+.Product .row .button-click {
+  border: 1px solid #8b8686;
+  padding: 0.4rem 1rem;
+}
+.Product .row .button-click button {
+  border: 1px solid #8b8686;
+  padding: 0px 6px;
+  margin: 0 0.8rem;
+}
+.Product .row .add-to-card {
+    color: #fff;
+    background-color:black;
+    padding: 0.5rem 1rem;
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+/*=========== media Quriy============= */
+@media  (max-width:990px) {
+    .Product .row .right{
+        padding-top: 0rem;
+     }
+}
